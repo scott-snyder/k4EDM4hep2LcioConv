@@ -336,7 +336,7 @@ lcio::LCCollectionVec* convTPCHits(
     if (edm_tpchit.isAvailable()) {
       auto* lcio_tpchit = new lcio::TPCHitImpl();
 
-#warning "unsigned long long conversion to int"
+      //#warning "unsigned long long conversion to int"
       lcio_tpchit->setCellID(edm_tpchit.getCellID());
       lcio_tpchit->setTime(edm_tpchit.getTime());
       lcio_tpchit->setCharge(edm_tpchit.getCharge());
@@ -656,7 +656,7 @@ lcio::LCCollectionVec* convMCParticles(
       float momentumEndpoint[3] = {
         edm_mcp.getMomentumAtEndpoint()[0], edm_mcp.getMomentumAtEndpoint()[1], edm_mcp.getMomentumAtEndpoint()[2]};
       lcio_mcp->setMomentumAtEndpoint(momentumEndpoint);
-#warning "double to float"
+      //#warning "double to float"
       lcio_mcp->setMass(edm_mcp.getMass());
       lcio_mcp->setCharge(edm_mcp.getCharge());
       float spin[3] = {edm_mcp.getSpin()[0], edm_mcp.getSpin()[1], edm_mcp.getSpin()[2]};
