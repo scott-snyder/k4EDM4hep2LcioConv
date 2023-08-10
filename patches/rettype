@@ -1,0 +1,6 @@
+Bottom: 2956c4798fd6dcdf8c6415f251e2dc5124132448
+Top:    2956c4798fd6dcdf8c6415f251e2dc5124132448
+Author: scott snyder <sss@karma>
+Date:   2023-08-10 14:47:48 -0400
+
+Fix return type mismatch.
