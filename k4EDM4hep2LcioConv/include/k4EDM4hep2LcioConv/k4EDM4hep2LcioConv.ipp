@@ -380,7 +380,7 @@ namespace EDM4hep2LCIOConv {
       if (edm_tpchit.isAvailable()) {
         auto* lcio_tpchit = new lcio::TPCHitImpl();
 
-#warning "unsigned long long conversion to int"
+ //#warning "unsigned long long conversion to int"
         lcio_tpchit->setCellID(edm_tpchit.getCellID());
         lcio_tpchit->setTime(edm_tpchit.getTime());
         lcio_tpchit->setCharge(edm_tpchit.getCharge());
