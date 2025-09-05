@@ -1,0 +1,6 @@
+Bottom: 8beff51d96542d6f65fa5c0ec55416de1c372504
+Top:    8beff51d96542d6f65fa5c0ec55416de1c372504
+Author: sss <sss@karma>
+Date:   2025-09-05 16:42:41 -0400
+
+Remove -Wno-dangling-reference option for gcc.
