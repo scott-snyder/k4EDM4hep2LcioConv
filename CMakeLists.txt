@@ -27,3 +27,10 @@ if (BUILD_TESTING)
 endif()
 
 include(cmake/k4EDM4hep2LcioConvCreateConfig.cmake)
+
+
+# By default, the generated Target file will set up the include paths for
+# our libraries using INTERFACE_INCLUDE_DIRECTORIES, meaning that they
+# will be included using -isystem rather than -I.  However, this can hide
+# warnings.  Adjust the behavior to use -I instead.
+set_target_properties( k4EDM4hep2LcioConv PROPERTIES EXPORT_NO_SYSTEM ON )
