@@ -1,7 +1,7 @@
-Bottom: 2a2eea8b427706f972070262fc612837ba008664
+Bottom: aefef72a17d069a0205c4dc69577ca580741ee6c
 Top:    aefef72a17d069a0205c4dc69577ca580741ee6c
 Author: Thomas Madlener <thomas.madlener@desy.de>
-Date:   2025-08-18 10:08:33 +0200
+Date:   2025-10-29 22:19:51 -0400
 
 Make conversion accept MCParticles with helicity (#120)
 

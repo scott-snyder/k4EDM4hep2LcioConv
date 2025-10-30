@@ -1,9 +1,8 @@
 {
   "version": 5,
-  "prev": "d57d22daf61d7ae4ec74750ed443701a30f7685a",
-  "head": "bd51470e6aa88a1475bf5891daf053223218831b",
-  "applied": [],
-  "unapplied": [
+  "prev": "f222deff1aea1e7ba0a6c19b78e20318844066a2",
+  "head": "f527b5ff211f1cb9fb46e842fbb57dd3b7a9eb17",
+  "applied": [
     "fix-compiler-error-in-gcc-15",
     "convert-simulator-status-bits",
     "make-conversion-accept",
@@ -16,40 +15,41 @@
     "danglewarn",
     "nosystem"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "convert-simulator-status-bits": {
-      "oid": "cfce02d4cd88714008feacfad49db84df97f1d11"
+      "oid": "826a7171b6e70bceec9e691df792657edcab34a6"
     },
     "danglewarn": {
-      "oid": "b58ee735e87541a250b40b55655941e777f946a6"
+      "oid": "2d43d095ae24e9fa370da8f96a20f1d1555aab31"
     },
     "fix-compiler-error-in-gcc-15": {
-      "oid": "a8e31443b7917e71e893cfed086457e0e5ce5269"
+      "oid": "0835af9b28443ea08474c9dc10716fb13506fad4"
     },
     "gitignore": {
-      "oid": "05ca8e3bac5abdb126bb3b9f9800f4e884b9d8df"
+      "oid": "4aed9ad7c28bcd879168b8f5388e88ef26e78ce2"
     },
     "gitignore-1": {
-      "oid": "c0249fd09b23724867ef9df4ceab2e68d2ec8ea6"
+      "oid": "84c7063268aba8c678d62bfeae7fc1790dfac5d4"
     },
     "make-conversion-accept": {
-      "oid": "bd51470e6aa88a1475bf5891daf053223218831b"
+      "oid": "bec9a4e3d2640c2f25a1b399849cffc007fcd0fc"
     },
     "make-headers-available-with": {
-      "oid": "e3b57b9126d5929afd8a9cb23af6f1411ac55bff"
+      "oid": "cd69c0204f575dcfd9f84572b504eddee3c11ad2"
     },
     "nosystem": {
-      "oid": "27e64e46240884cc7ab74b469f4dcb646fa709a8"
+      "oid": "f527b5ff211f1cb9fb46e842fbb57dd3b7a9eb17"
     },
     "remove-warnings": {
-      "oid": "6d5df583bca803d1768038240a8dae10486e6b9b"
+      "oid": "b43637f434607be2546d64cde67ee4836a3e9ac0"
     },
     "remove-wno-dangling-reference": {
-      "oid": "44731cc63c5d12235cd594bc18c206afaae59141"
+      "oid": "a4dc03619a5ca22cbf7c2b7c19fe85e83b8ec241"
     },
     "warn": {
-      "oid": "5898d6692c49f2768c15d3f08853702e279c92e3"
+      "oid": "702aa09f6386c0408751539f103e0c796620e52e"
     }
   }
 }
