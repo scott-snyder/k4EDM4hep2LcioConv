@@ -1,0 +1,13 @@
+Bottom: 64e5355fa50dc9d6cfb3f2ae72b5a441cb13f317
+Top:    41916c741df304938049e07795f202454446136d
+Author: Juan Miguel Carceller <22276694+jmcarcell@users.noreply.github.com>
+Date:   2025-08-13 09:33:29 +0200
+
+Fix compiler error in GCC < 15 by avoiding an ambiguous operator= (#119)
+
+The error seems to be that there are two candidates:
+edm4hep::CovMatrix6f::operator=(const std::array<float, 21>&)
+edm4hep::CovMatrix6f::operator=(const edm4hep::CovMatrix6f&)
+after const was added in https://github.com/key4hep/EDM4hep/pull/435
+
+Co-authored-by: Juan Miguel Carceller <jmcarcell@users.noreply.github.com>
