@@ -1,11 +1,8 @@
 {
   "version": 5,
-  "prev": "fda4e2ebb9af4ebe70e4c15be96e2fdd7c3fbc46",
-  "head": "cd69c0204f575dcfd9f84572b504eddee3c11ad2",
+  "prev": "43e4ef7938b3320ea2d96097c9b7d6e09af2da4b",
+  "head": "8d9f0c0ab83bb93a378ef29e7c33836033328710",
   "applied": [
-    "fix-compiler-error-in-gcc-15",
-    "convert-simulator-status-bits",
-    "make-conversion-accept",
     "gitignore",
     "warn",
     "danglewarn",
@@ -14,26 +11,17 @@
   "unapplied": [],
   "hidden": [],
   "patches": {
-    "convert-simulator-status-bits": {
-      "oid": "826a7171b6e70bceec9e691df792657edcab34a6"
-    },
     "danglewarn": {
-      "oid": "a4dc03619a5ca22cbf7c2b7c19fe85e83b8ec241"
-    },
-    "fix-compiler-error-in-gcc-15": {
-      "oid": "0835af9b28443ea08474c9dc10716fb13506fad4"
+      "oid": "7c8c64dbe8d87636de617389fd94ae1de1d0e2fe"
     },
     "gitignore": {
-      "oid": "84c7063268aba8c678d62bfeae7fc1790dfac5d4"
-    },
-    "make-conversion-accept": {
-      "oid": "bec9a4e3d2640c2f25a1b399849cffc007fcd0fc"
+      "oid": "589b48415082ef426df17169084b8dd6368239b5"
     },
     "nosystem": {
-      "oid": "cd69c0204f575dcfd9f84572b504eddee3c11ad2"
+      "oid": "8d9f0c0ab83bb93a378ef29e7c33836033328710"
     },
     "warn": {
-      "oid": "b43637f434607be2546d64cde67ee4836a3e9ac0"
+      "oid": "8af3d97d71081b11c4414a2697ff86a8240df6c2"
     }
   }
 }
