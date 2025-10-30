@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "0e13d854bcafc40811ed15d9bb803873db2586ab",
-  "head": "b328ff11b1cbf7243fd9fee129c8ff77de5d4a57",
+  "prev": "48a1f01f543911b6f7b5f444475527b6bd45eff8",
+  "head": "be29a413871de579408559a25d53c1c7e84bec6d",
   "applied": [
     "fix-compiler-error-in-gcc-15",
     "convert-simulator-status-bits",
@@ -10,17 +10,13 @@
     "remove-warnings",
     "remove-wno-dangling-reference",
     "nosystem",
-    "warn",
-    "danglewarn"
+    "warn"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "convert-simulator-status-bits": {
       "oid": "826a7171b6e70bceec9e691df792657edcab34a6"
-    },
-    "danglewarn": {
-      "oid": "b328ff11b1cbf7243fd9fee129c8ff77de5d4a57"
     },
     "fix-compiler-error-in-gcc-15": {
       "oid": "0835af9b28443ea08474c9dc10716fb13506fad4"
