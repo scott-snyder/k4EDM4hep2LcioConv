@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "f02f09ae95947d781ec3bace2b20b39e1785e122",
+  "prev": "0e13d854bcafc40811ed15d9bb803873db2586ab",
   "head": "b328ff11b1cbf7243fd9fee129c8ff77de5d4a57",
   "applied": [
     "fix-compiler-error-in-gcc-15",
@@ -9,7 +9,7 @@
     "gitignore",
     "remove-warnings",
     "remove-wno-dangling-reference",
-    "make-headers-available-with",
+    "nosystem",
     "warn",
     "danglewarn"
   ],
@@ -31,7 +31,7 @@
     "make-conversion-accept": {
       "oid": "bec9a4e3d2640c2f25a1b399849cffc007fcd0fc"
     },
-    "make-headers-available-with": {
+    "nosystem": {
       "oid": "cd69c0204f575dcfd9f84572b504eddee3c11ad2"
     },
     "remove-warnings": {
