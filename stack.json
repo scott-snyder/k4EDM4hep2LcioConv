@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "d84c788f26bb2a210b491fa926c73e4c470b971a",
-  "head": "be29a413871de579408559a25d53c1c7e84bec6d",
+  "prev": "8f9638c45f6fd758e494752e2559674a7cbfdda8",
+  "head": "cd69c0204f575dcfd9f84572b504eddee3c11ad2",
   "applied": [
     "fix-compiler-error-in-gcc-15",
     "convert-simulator-status-bits",
@@ -9,8 +9,7 @@
     "gitignore",
     "remove-warnings",
     "danglewarn",
-    "nosystem",
-    "warn"
+    "nosystem"
   ],
   "unapplied": [],
   "hidden": [],
@@ -35,9 +34,6 @@
     },
     "remove-warnings": {
       "oid": "b43637f434607be2546d64cde67ee4836a3e9ac0"
-    },
-    "warn": {
-      "oid": "be29a413871de579408559a25d53c1c7e84bec6d"
     }
   }
 }
