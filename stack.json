@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "48a1f01f543911b6f7b5f444475527b6bd45eff8",
+  "prev": "d84c788f26bb2a210b491fa926c73e4c470b971a",
   "head": "be29a413871de579408559a25d53c1c7e84bec6d",
   "applied": [
     "fix-compiler-error-in-gcc-15",
@@ -8,7 +8,7 @@
     "make-conversion-accept",
     "gitignore",
     "remove-warnings",
-    "remove-wno-dangling-reference",
+    "danglewarn",
     "nosystem",
     "warn"
   ],
@@ -17,6 +17,9 @@
   "patches": {
     "convert-simulator-status-bits": {
       "oid": "826a7171b6e70bceec9e691df792657edcab34a6"
+    },
+    "danglewarn": {
+      "oid": "a4dc03619a5ca22cbf7c2b7c19fe85e83b8ec241"
     },
     "fix-compiler-error-in-gcc-15": {
       "oid": "0835af9b28443ea08474c9dc10716fb13506fad4"
@@ -32,9 +35,6 @@
     },
     "remove-warnings": {
       "oid": "b43637f434607be2546d64cde67ee4836a3e9ac0"
-    },
-    "remove-wno-dangling-reference": {
-      "oid": "a4dc03619a5ca22cbf7c2b7c19fe85e83b8ec241"
     },
     "warn": {
       "oid": "be29a413871de579408559a25d53c1c7e84bec6d"
