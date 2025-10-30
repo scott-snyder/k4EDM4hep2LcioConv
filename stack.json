@@ -1,12 +1,12 @@
 {
   "version": 5,
-  "prev": "b94bc1311ea6a0d819ddeb8497e0adabc25bc08a",
+  "prev": "9796b10df5b110fd9f02425d60bb6faf2f45d670",
   "head": "b9bb33783e47d4250bfabb101f53d5c299403d89",
   "applied": [
     "fix-compiler-error-in-gcc-15",
     "convert-simulator-status-bits",
     "make-conversion-accept",
-    "gitignore-1",
+    "gitignore",
     "remove-warnings",
     "remove-wno-dangling-reference",
     "make-headers-available-with",
@@ -26,7 +26,7 @@
     "fix-compiler-error-in-gcc-15": {
       "oid": "0835af9b28443ea08474c9dc10716fb13506fad4"
     },
-    "gitignore-1": {
+    "gitignore": {
       "oid": "84c7063268aba8c678d62bfeae7fc1790dfac5d4"
     },
     "make-conversion-accept": {
