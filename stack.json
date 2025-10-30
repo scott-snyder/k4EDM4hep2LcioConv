@@ -1,13 +1,13 @@
 {
   "version": 5,
-  "prev": "8f9638c45f6fd758e494752e2559674a7cbfdda8",
+  "prev": "fda4e2ebb9af4ebe70e4c15be96e2fdd7c3fbc46",
   "head": "cd69c0204f575dcfd9f84572b504eddee3c11ad2",
   "applied": [
     "fix-compiler-error-in-gcc-15",
     "convert-simulator-status-bits",
     "make-conversion-accept",
     "gitignore",
-    "remove-warnings",
+    "warn",
     "danglewarn",
     "nosystem"
   ],
@@ -32,7 +32,7 @@
     "nosystem": {
       "oid": "cd69c0204f575dcfd9f84572b504eddee3c11ad2"
     },
-    "remove-warnings": {
+    "warn": {
       "oid": "b43637f434607be2546d64cde67ee4836a3e9ac0"
     }
   }
