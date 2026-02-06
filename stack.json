@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "a3e1955f2aca8aade0571523e2b554f5bdb6b9e6",
-  "head": "bf2eb3c57a4608b6d183ee5f7624e0f9085fadcf",
-  "applied": [],
-  "unapplied": [
+  "prev": "88516a804db5a2b0d59eebcf038838952df05c0a",
+  "head": "d44b46803a2e8c25e6e696f90e085d5d087c958b",
+  "applied": [
     "gitignore",
     "warn",
-    "danglewarn",
+    "danglewarn"
+  ],
+  "unapplied": [
     "nosystem",
     "cxx26"
   ],
@@ -16,16 +17,16 @@
       "oid": "2ba80d65c0eb3aea7153adc39e9c2cc04dc76244"
     },
     "danglewarn": {
-      "oid": "097113cdd726545274c29c15a8f1dc7d74271f40"
+      "oid": "d44b46803a2e8c25e6e696f90e085d5d087c958b"
     },
     "gitignore": {
-      "oid": "01d511a395c321b1ace5dcfdc1ca9da5dedbf719"
+      "oid": "7631090a8bf9b477b8ab9abee91579d4d1a8b7f3"
     },
     "nosystem": {
       "oid": "45fc953612ec75e59e6f140e966496f825cbd6f1"
     },
     "warn": {
-      "oid": "1c5b035c30e1c34d9284242ba8e819d0b0456504"
+      "oid": "b709dfe8e4f5335adf86b4b82168ddef01e1981e"
     }
   }
 }
