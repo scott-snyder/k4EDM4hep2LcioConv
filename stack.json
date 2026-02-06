@@ -1,11 +1,10 @@
 {
   "version": 5,
-  "prev": "88516a804db5a2b0d59eebcf038838952df05c0a",
-  "head": "d44b46803a2e8c25e6e696f90e085d5d087c958b",
+  "prev": "4e35de9116a523cb9c06f3b8e726b9fb1d140416",
+  "head": "b709dfe8e4f5335adf86b4b82168ddef01e1981e",
   "applied": [
     "gitignore",
-    "warn",
-    "danglewarn"
+    "warn"
   ],
   "unapplied": [
     "nosystem",
@@ -15,9 +14,6 @@
   "patches": {
     "cxx26": {
       "oid": "2ba80d65c0eb3aea7153adc39e9c2cc04dc76244"
-    },
-    "danglewarn": {
-      "oid": "d44b46803a2e8c25e6e696f90e085d5d087c958b"
     },
     "gitignore": {
       "oid": "7631090a8bf9b477b8ab9abee91579d4d1a8b7f3"
